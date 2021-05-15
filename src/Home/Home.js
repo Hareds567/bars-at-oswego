@@ -1,8 +1,7 @@
 import React from "react";
 //CSS
 import "./Home.css";
-//images
-import bar from "../Pictures/alcohol-1961542_1920.jpg";
+
 const Home = () => {
 	return (
 		<div>
