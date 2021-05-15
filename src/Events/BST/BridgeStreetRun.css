@@ -1,0 +1,121 @@
+.bsr-container {
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 4rem;
+	padding: 0 4rem;
+	min-width: 10ch;
+	max-width: 900px;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	line-height: 1.6;
+}
+.images img {
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 1rem;
+	display: block;
+	width: 600px;
+	height: 229px;
+}
+.images iframe {
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 1rem;
+	display: block;
+	width: 600px;
+	height: 229px;
+}
+.imageContainer {
+	display: flex;
+	flex-direction: row;
+}
+.slideshow-container {
+	max-width: 1000px;
+	position: relative;
+	margin: auto;
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+}
+.mySlides {
+	display: none;
+}
+.prev,
+.next {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	margin-top: -22px;
+	padding: 16px;
+	color: #4caf50;
+	font-weight: bold;
+	font-size: 18px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
+}
+.next {
+	right: 0;
+	border-radius: 3px 0 0 3px;
+}
+.prev:hover,
+.next:hover {
+	background-color: rgba(0, 0, 0, 0.8);
+}
+.fade {
+	-webkit-animation-name: fade;
+	-webkit-animation-duration: 1.5s;
+	animation-name: fade;
+	animation-duration: 1.5s;
+}
+.yt-videos {
+	display: flex;
+	margin-bottom: 4rem;
+}
+.yt-details {
+	display: flex;
+	width: auto;
+	align-items: center;
+	padding-left: 2rem;
+	word-break: normal;
+}
+.bsr-container section {
+	margin: 2rem 0;
+	padding: 2rem 0;
+}
+
+section > article {
+	font-size: 1.5rem;
+}
+
+.bsr-container h1 {
+	font-size: 7rem;
+}
+.bsr-container h2 {
+	font-size: 3rem;
+}
+.bsr-container h3 {
+	font-size: 2rem;
+}
+.main-content {
+}
+.unfortunate-events a {
+	color: white;
+}
+@-webkit-keyframes fade {
+	from {
+		opacity: 0.4;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+@keyframes fade {
+	from {
+		opacity: 0.4;
+	}
+	to {
+		opacity: 1;
+	}
+}

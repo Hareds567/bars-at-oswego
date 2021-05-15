@@ -1,0 +1,45 @@
+body {
+	position: relative;
+	background: #282c34;
+	color: white;
+	margin: 0;
+}
+h1,
+h2,
+h3 {
+	font-weight: 900;
+}
+
+.App {
+	display: flex;
+	flex-direction: column;
+}
+/* Header */
+.header {
+	margin-left: auto;
+	margin-right: auto;
+	overflow: none;
+}
+/* Navigation */
+.navigationBar {
+	order: 0;
+	display: flex;
+	min-width: 200px;
+}
+/* Events CSS */
+.the-raven {
+	overflow: none;
+}
+/* Bridge Street Run */
+.content {
+	margin-left: auto;
+	margin-right: auto;
+	overflow: none;
+}
+/* Testing */
+.test {
+	display: flex;
+	margin-left: 210px;
+	flex-direction: column;
+}
+/* ============ */

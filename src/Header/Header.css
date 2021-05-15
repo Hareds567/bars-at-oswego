@@ -1,0 +1,11 @@
+.header-container {
+	width: fit-content;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0 4rem;
+	letter-spacing: 1px;
+	overflow: hidden;
+}
+.header-container h1 {
+	font-size: 7rem;
+}

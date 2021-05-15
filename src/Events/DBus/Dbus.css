@@ -1,0 +1,40 @@
+.Dbus-container {
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 4rem;
+	padding: 0 4rem;
+	min-width: 10ch;
+	max-width: 900px;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	line-height: 1.6;
+}
+section > article {
+	font-size: 1.5rem;
+}
+.Dbus-container img {
+	margin-bottom: 4rem;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 20px;
+}
+.information {
+	margin-bottom: 4rem;
+}
+.cancel {
+	margin-bottom: 4rem;
+}
+section > article {
+	font-size: 1.5rem;
+}
+
+.Dbus-container h1 {
+	font-size: 7rem;
+}
+.Dbus-container h2 {
+	font-size: 3rem;
+}
+.Dbus-container h3 {
+	font-size: 2rem;
+}
