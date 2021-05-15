@@ -1,0 +1,44 @@
+.about-container {
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 4rem;
+	padding: 0 4rem;
+	min-width: 10ch;
+	max-width: 900px;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	line-height: 1.6;
+}
+.about-container a {
+	text-decoration: none;
+	color: white;
+}
+.about-container a:hover {
+	opacity: 0.7;
+}
+.fa:hover {
+	opacity: 0.7;
+}
+.about-container article ul li > ul {
+	list-style-type: disclosure-closed;
+}
+.about-container article ul li ul > li:hover {
+	color: #4caf50;
+}
+.about-container h1 {
+	font-size: 7rem;
+}
+.about-container h2 {
+	font-size: 3rem;
+}
+.about-container h3 {
+	font-size: 2rem;
+}
+.about-footer {
+	display: flex;
+	justify-content: center;
+	gap: 2rem;
+}
+.content-references {
+	margin-bottom: 5rem;
+}

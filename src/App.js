@@ -2,7 +2,11 @@ import "./App.css";
 //Local Imports
 import NavigationBar from "./NavigationBar/Navigation_Bar";
 import Header from "./Header/Header";
+import Home from "./Home/Home";
+import About from "./About/About";
+//Bars
 import TheRaven from "./Bars/TheRaven/TheRaven";
+import TheAlleyCat from "./Bars/TheAlleyCat/TheAlleyCat";
 // Events
 import BridgeStreetRun from "./Events/BST/BridgeStreetRun";
 import Dbus from "./Events/DBus/Dbus";
@@ -29,6 +33,9 @@ const App = () => {
 						<div className='header'>
 							<Header />
 						</div>
+						<div className='content'>
+							<Home />
+						</div>
 					</div>
 				</Route>
 				<Route exact path='/bars-at-oswego/the-raven'>
@@ -40,7 +47,7 @@ const App = () => {
 							<div className='header'>
 								<Header />
 							</div>
-							<div className='the-raven'>
+							<div className='content'>
 								<TheRaven />
 							</div>
 						</div>
@@ -54,6 +61,9 @@ const App = () => {
 						<div className='test'>
 							<div className='header'>
 								<Header />
+							</div>
+							<div className='content'>
+								<TheAlleyCat />
 							</div>
 						</div>
 					</div>
@@ -97,7 +107,9 @@ const App = () => {
 							<div className='header'>
 								<Header />
 							</div>
-							<div className='content'></div>
+							<div className='content'>
+								<About />
+							</div>
 						</div>
 					</div>
 				</Route>
