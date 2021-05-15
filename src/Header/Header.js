@@ -4,7 +4,7 @@ import { useLocation } from "react-router-dom";
 //CSS
 import "./Header.css";
 //Images
-
+import bar from "../Pictures/alcohol-1961542_1920.jpg";
 const Header = () => {
 	const [title, set_Title] = useState("");
 	const location = useLocation();
@@ -30,11 +30,23 @@ const Header = () => {
 	});
 
 	return (
-		<div className='header-container'>
-			<h1>{title}</h1>
-			{/* <a href='https://pngtree.com/so/summer-clipart'>
+		<div className='container-test'>
+			<div className='image-container'>
+				{location.pathname === "/bars-at-oswego" && (
+					<img src={bar} className='bar-image' />
+				)}
+			</div>
+			<div
+				className={
+					location.pathname === "/bars-at-oswego"
+						? "header-container2"
+						: "header-container"
+				}>
+				<h1>{title}</h1>
+				{/* <a href='https://pngtree.com/so/summer-clipart'>
 				summer clipart png from pngtree.com
 			</a> */}
+			</div>
 		</div>
 	);
 };

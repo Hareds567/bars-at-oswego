@@ -9,3 +9,30 @@
 .header-container h1 {
 	font-size: 7rem;
 }
+.bar-image {
+	position: relative;
+	width: 100%;
+	height: 705px;
+	object-fit: cover;
+}
+.image-container {
+	background: black;
+	width: 100%;
+	overflow: hidden;
+}
+.container-test {
+	position: relative;
+	text-align: center;
+	color: white;
+}
+.header-container2 {
+	width: 50%;
+	min-width: 50px;
+	max-height: 2ch;
+	position: absolute;
+	top: 15%;
+	left: 5%;
+}
+.header-container2 h1 {
+	font-size: 7rem;
+}

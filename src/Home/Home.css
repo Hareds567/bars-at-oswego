@@ -1,0 +1,13 @@
+.top {
+	/* background: url(../Pictures/alcohol-1961542_1920.jpg); */
+	width: 100%;
+}
+.top article {
+	margin: 15rem 4rem;
+}
+.home-container {
+	margin: 0 4rem;
+}
+.iframe-container {
+	box-sizing: border-box;
+}
